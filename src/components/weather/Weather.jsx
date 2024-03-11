@@ -34,6 +34,7 @@ const Weather = () => {
         }).catch(err => {
             alert("Wrong city name")
             setCounty("")
+            setLoader(false)
         })
     }
 
